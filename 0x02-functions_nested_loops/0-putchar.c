@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - our entry point
@@ -6,7 +6,7 @@
  * Return: (0) always
  */
 
-int _putchar(char c)
+int main(void)
 {
 
 	_putchar('_');
