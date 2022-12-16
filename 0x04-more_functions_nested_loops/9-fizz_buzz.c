@@ -9,7 +9,9 @@
 int main(void)
 {
 	int k = 100;
-	int i = 1;
+	int i;
+
+	i = 1;
 
 	while (i <= k)
 	{
