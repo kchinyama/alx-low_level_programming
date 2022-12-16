@@ -5,6 +5,7 @@
  * @n: print int
  * Return: 0 always
  */
+
 void print_diagonal(int n)
 {
 	int i;
@@ -16,7 +17,7 @@ void print_diagonal(int n)
 		{
 		for (b = 0; b < i; b++)
 		{
-			_putchar (' ');
+		_putchar (' ');
 		}
 		_putchar (92);
 		-putchar ('\n');
