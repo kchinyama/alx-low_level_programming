@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - function that takes pointer to int and updates value to 98
- *
+ * function - that takes pointer to int and updates value to 98
+ * @n - value updated to 98
  * Return: nothing
  */
 
