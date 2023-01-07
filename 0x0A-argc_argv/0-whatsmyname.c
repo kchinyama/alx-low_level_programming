@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	printf("argc = %d\n", argc);
 	printf("My name is:\n");
 
-	for (k = 0; k < argc; k++)
+	for (k = 1; k < argc; k++)
 	{
 		printf("argv[%d] = %s\n", k, argv[k]);
 	}
