@@ -6,12 +6,12 @@
  * @argv: pointer to string
  * Return: 0 for success
  */
-
 int main(int argc, char *argv[])
 {
 	int k;
 
 	printf("argc = %d\n", argc);
+	printf("My name is:\n");
 /*	printf("My name is:\n");*/
 
 	for (k = 1; k < argc; k++)
