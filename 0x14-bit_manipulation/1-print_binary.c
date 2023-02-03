@@ -9,7 +9,7 @@ void print_binary(unsigned long int n)
 	int k, counts = 0;
 	unsigned long int present;
 
-	for (k = 24; k >= 0; k--)
+	for (k = 63; k >= 0; k--)
 	{
 		present = n >> k;
 
