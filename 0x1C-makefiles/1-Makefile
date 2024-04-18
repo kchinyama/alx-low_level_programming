@@ -1,8 +1,8 @@
-all: school
+all: schools
 
 CC = gcc
 
 SRC = $(wildcard *.c)
 
-school: school.c
-	CC SRC -o school
+schools: school.c
+	@echo "$(CC) $(SRC) -o school"
